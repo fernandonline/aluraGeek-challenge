@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+    --cor-principal: #F47521;
+    --cor-secundaria: #FFA64D;
+    --cor-branca: #FFF;
+    --cor-cinza: #333333;
+}
+
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    font-family: "Press Start 2P", system-ui;
+}
+
+.cabecalho {
+    width: 100%;
+    background-color: var(--cor-principal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    gap: 0.7rem;
+}
+
+.titulo {
+    color: var(--cor-branca);
+    font-size: 1.2rem;
+}
+
+section {
+    font-family: "Press Start 2P", system-ui;
+    padding: 1rem;
+}
+
+.site_formulario {
+    width: 100%;
+}
+
+.formulario_titulo {
+    font-size: 1.3rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    color: var(--cor-cinza);
+    
+}
+
+.formulario_produto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    gap: 1rem;
+}
+
+.formulario_produto input {
+    height: 2rem;
+    border-radius: 12px;
+    padding: 10px;
+    border: 2px solid var(--cor-principal);
+}
+
+.formulario_botao button {
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    border-radius: 12px;
+    border: 2px solid var(--cor-principal);
+    font-family: "Press Start 2P", system-ui;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-branca);
+}
+
+.formulario_botao button:hover{
+    color: var(--cor-branca);
+    background-color: var(--cor-secundaria);
+}
+
+.site_produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.produto_titulo {
+    font-size: 1.1rem;
+    font-weight: 100;
+    color: var(--cor-cinza)
+}
+
+.produto_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.produto_card {
+    position: relative;
+    background-color: var(--cor-principal);
+    color: var(--cor-branca);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 12px;
+}
+
+.produto_card img {
+    max-width: 100%;
+    height: 75%;
+}
+
+.produto_card_info {
+    width: 100%;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.produto_card_info svg {
+    cursor: pointer;
+}
+
+.produto_card_preco {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.rodape {
+    height: 500px;
+    background-color: var(--cor-principal);
+}
+
+
+@media only screen and (min-width: 516px) {
+
+    .produto_container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .site {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 1rem;
+    }
+
+    .site_formulario {
+        width: 40%;
+    }
+
+    .formulario_produto input {
+        width: 20vw;
+    }
+
+    .site_produto {
+        width: 60%;
+    }
+
+    .produto_titulo {
+        font-size: 1.5rem;
+    }
+
+    .produto_container {
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 1.8rem;
+    }
+
+}

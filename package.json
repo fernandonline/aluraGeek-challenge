@@ -1,0 +1,11 @@
+{
+  "name": "10-challenge-alura-geek",
+  "version": "0.17.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

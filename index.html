@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alura-geek-challenge</title>
+    <link rel="stylesheet" type="text/css" href="/estilo/index.css" media="screen">
+
+    <script src="/script/index.js" type="module" defer></script>
+
+    <script src="/script/adicionar.js" type="module" defer></script>
+
+</head>
+<body>
+
+    <header class="cabecalho">
+
+        <img width="58" height="46" viewBox="0 0 138 56" src="/imagens/logo-manga.png">
+
+        <span class="titulo"> Alura Geek </span>
+
+    </header>
+
+
+    <main class="site">
+
+        <section class="site_formulario">
+
+            <form class="formulario_produto" data-formulario="">
+
+                <div class="formulario_titulo">
+                    <span> Adicionar </span>
+                    <span> Produto: </span>
+                </div>
+
+                <div>
+                    <input type="text" class="produto_nome" placeholder="Nome do produto" data-nome="" required>
+                </div>
+                <span id="mensagem_erro"> </span>
+                
+                <div>
+                    <input type="number" class="produto_preco" min="0" step="0.01" placeholder="Preço do produto" data-preco="" required>
+                </div>     
+                <span id="mensagem_erro"> </span>         
+                
+                <div>
+                    <input type="text" class="produto_imagem" placeholder="URL da imagem" data-imagem="" required>
+                </div>
+                <span id="mensagem_erro"> </span>
+                
+                <div class="formulario_botao">
+                    <button type="submit">Guardar</button>
+                    <button type="button" class="cancel" data-limpar>Limpar</button>
+                </div>
+
+            </form>
+        </section>
+
+
+        <section class="site_produto">
+
+            <span class="produto_titulo"> meus produtos: </span>
+
+            <section class="produto_container" data-lista> 
+
+    
+            </section>
+
+        </section>
+    </main>
+
+
+    <footer class="rodape">
+
+        <span class="rodape_main"> desenvolvido por:  </span>
+
+    </footer>
+    
+</body>
+</html>

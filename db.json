@@ -1,0 +1,22 @@
+{
+    "produtos": [
+    {
+        "id": "1",
+        "nome": "Conhecendo a linguagem Go",
+        "preco": "30,00",
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnZB1HuaYiP296bE-GS5Dmvcmtw8GmkPPTyQ&s"
+    },
+
+    {
+        "id": "2",
+        "nome": "Desmistificando mobile",
+        "preco": "29,90",
+        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYhjXQiczBOsTz4oeHoui7nUBdIb4stcRpDw&s"
+    },
+    {
+        "id": "3",
+        "nome": "Made in Abyss - vol 1",
+        "preco": "23,90",
+        "imagem": "/imagens/Made-in-Abyss-vol1.jpg"
+    }
+]}
