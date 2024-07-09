@@ -1,22 +1,16 @@
 {
-    "produtos": [
+  "produtos": [
     {
-        "id": "1",
-        "nome": "no game no life - vol 1",
-        "preco": "30,00",
-        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnZB1HuaYiP296bE-GS5Dmvcmtw8GmkPPTyQ&s"
-    },
-
-    {
-        "id": "2",
-        "nome": "Naruto - vol 1",
-        "preco": "29,90",
-        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYhjXQiczBOsTz4oeHoui7nUBdIb4stcRpDw&s"
+      "nome": "No Game, No Life Vol. 1",
+      "preco": "19.90",
+      "imagem": "https://m.media-amazon.com/images/I/81pCZrM-GcL._SL1500_.jpg",
+      "id": "BiElQBF"
     },
     {
-        "id": "3",
-        "nome": "Made in Abyss - vol 1",
-        "preco": "23,90",
-        "imagem": "/imagens/Made-in-Abyss-vol1.jpg"
+      "nome": "Naruto, Volume 1",
+      "preco": "21.90",
+      "imagem": "https://m.media-amazon.com/images/I/91RpwagB7uL._SL1500_.jpg",
+      "id": "7blqwBm"
     }
-]}
+  ]
+}
